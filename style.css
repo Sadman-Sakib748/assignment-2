@@ -366,8 +366,7 @@ nav.navbar-section {
     grid-auto-columns: 2, 1fr;
     grid-template-columns: repeat(2, 1fr);
     margin-left: -70px;
-    padding-right: 213px;
-
+    
 }
 
 .img1 {
