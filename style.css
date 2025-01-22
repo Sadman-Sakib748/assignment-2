@@ -1,8 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 body {
     font-family: Arial, sans-serif;
@@ -67,10 +63,21 @@ nav.navbar-section {
     transition: background-color 0.3s, color 0.3s;
 }
 
-.menu li a:hover {
-    background-color: #34495e;
+.nav:hover {
     border-radius: 5px;
-    color: #f39c12;
+    color: orange;
+}
+.nav-2:hover {
+    border-radius: 5px;
+    color: skyblue;
+}
+.nav-3:hover {
+    border-radius: 5px;
+    color: #05D4DF;
+}
+.nav-4:hover {
+    border-radius: 5px;
+    color: #5D58EF;
 }
 
 .hamburger-icon {
@@ -245,8 +252,8 @@ nav.navbar-section {
 .curriculum-bg {
     width: 100%;
 }
-.curriculum-btn {
-
+.icon-btn {
+    width: 50px;
 }
 
 .title {
@@ -451,7 +458,7 @@ nav.navbar-section {
 
 .bg-top {
     position: relative;
-    top: -696px;
+    top: -668px;
     background-color: #FEA301;
     height: 50%;
     overflow-x: hidden;
@@ -722,9 +729,9 @@ nav.navbar-section {
         padding: 0.6rem 1.2rem;
     }
 
-    .icon-btn {
+    /* .icon-btn {
         display: none;
-    }
+    } */
 
 
 
