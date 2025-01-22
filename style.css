@@ -858,5 +858,10 @@ nav.navbar-section {
     .school-name {
         display: none;
     }
+    .hero-button {
+        position: relative;
+        right: -288px;
+    }
+
 
 }
